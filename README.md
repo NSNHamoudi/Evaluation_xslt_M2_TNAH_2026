@@ -4,7 +4,7 @@ Ce repository contient les documents nécessaires à l'évaluation du cours de _
 
 Il contient :
 
-- Un document xml, repris de `XML-Encoding--Assignment-3`, portant sur des extraits du dénombrement de la population de 1872 dans la ville de Tours
+- Un document xml, repris de `XML-Encoding--Assignment-3`, portant sur des extraits du dénombrement de la population de 1872 dans la ville de Tours, disponible à l'adresse suivante : https://github.com/NSNHamoudi/XML-Encoding---TNAH-2025-2026/tree/a755508210dd2f2ed97a67345fcbede74497aab0/XML-Encoding--Assignment-3
 - La transformation xsl adaptée au document xml ci-dessus
 - Les pages HTML générées à partir de la feuille xsl ci-dessus
 - Une feuille de style css
