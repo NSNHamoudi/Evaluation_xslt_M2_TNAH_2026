@@ -1,0 +1,103 @@
+/* STYLE GENERAL */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4ecd8;
+    color: #4b2e1e;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #5a3e2b;
+    color: #f4ecd8;
+    padding: 15px;
+    margin: -20px -20px 30px -20px;
+}
+
+/* GALERIE INDEX */
+
+.galerie {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+}
+
+.registre {
+    width: 300px;
+    text-align: center;
+}
+
+.registre img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.registre img:hover {
+    transform: scale(1.05);
+}
+
+.registre p {
+    margin-top: 10px;
+    font-weight: bold;
+    min-height: 40px;
+}
+
+/* PAGE DETAIL */
+
+.container {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    align-items: flex-start;
+}
+
+/* TABLEAU */
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    background-color: #fffaf0;
+}
+
+th, td {
+    border: 1px solid #8b5a2b;
+    padding: 6px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #d2b48c;
+}
+
+/* IMAGE + LEGENDE */
+
+.image-block {
+    width: 40%;
+}
+
+.image-block img {
+    width: 100%;
+    height: auto;
+}
+
+.legende {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+/* LIENS */
+
+a {
+    color: #5a3e2b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
